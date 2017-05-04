@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flexbox Layout</title>
+	<meta charset="UTF-8">
+	<style type="text/css">
+
+	header {
+		background-color: orange;
+	}
+	footer {
+		background-color: green;
+	}
+	.flex_row {
+		display: flex;
+		flex-direction: row;
+		align-content: space-between;
+		align-items: stretch;
+	}
+	.flex_col {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: stretch;
+	}
+	.col1 {
+		background-color: blue;
+		width: 300px;
+		margin: 5px;
+		padding: 5px;
+	}
+	.col2 {
+		background-color: darkviolet;
+		flex-grow: 1;
+		margin: 5px;
+		padding: 5px;
+	}
+	
+	</style>
+</head>
+<body>
+	<div class="flex_col">	
+		<header><h1>Header</h1></header></div>
+			<div class="flex_row">
+				<div class="col1">
+				<h1>Column 1</h1></div>
+			<div class="col2">
+				<h1>Column 2</h1></div></div>
+			<div class="flex_col">	
+				<footer><h1>Footer</h1></footer></div>
+</body>
+</html>
