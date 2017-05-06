@@ -1,0 +1,44 @@
+body {
+	background-color: darkred;
+	padding: 50px;
+
+}
+
+.col1 {
+	padding: 120px 0 65px 0;
+	text-align: center;
+	font-size: 48px;
+	color: black;
+}
+
+.col2 {
+	padding-top: 20px;
+	text-align: center;
+	font-size: 40px;
+}
+
+.col3 {
+	padding: 15px;
+}
+
+.center_ul {
+	display: inline-block;
+}
+
+.center {
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	font-size: 24px;
+	padding-bottom: 20px;
+}
+
+hr {
+	border: 1px solid darkgrey;
+}
+
+/*iframe {
+	padding-left: 75px;
+}*/
